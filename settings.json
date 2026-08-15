@@ -1,0 +1,47 @@
+{
+    "history_days": 365,
+
+    "database": {
+        "stock": "data/stock.db",
+        "commodity": "data/commodity.db"
+    },
+
+    "output": {
+        "stock": "output/stock",
+        "commodity": "output/commodity"
+    },
+
+    "stocks": {
+        "AAPL": {
+            "ticker": "AAPL",
+            "name": "Apple",
+            "name_en": "Apple Inc.",
+            "unit": "USD/share"
+        },
+        "NVDA": {
+            "ticker": "NVDA",
+            "name": "NVIDIA",
+            "name_en": "NVIDIA Corporation",
+            "unit": "USD/share"
+        },
+        "2330": {
+            "ticker": "2330.TW",
+            "name": "台積電",
+            "name_en": "Taiwan Semiconductor Manufacturing Company",
+            "unit": "TWD/share"
+        },
+        "TAIEX": {
+            "ticker": "^TWII",
+            "name": "臺灣加權股價指數",
+            "name_en": "Taiwan Capitalization Weighted Stock Index",
+            "unit": "Index"
+        }
+    },
+
+    "commodities": {
+        "COPPER": {
+            "ticker": "HG=F",
+            "unit": "USD/lb"
+        }
+    }
+}

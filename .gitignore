@@ -1,0 +1,25 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# SQLite databases (generated automatically)
+data/*.db
+
+# Log files
+logs/
+
+# Generated CSV files
+output/**/*.csv
+
+# Virtual environments
+.venv/
+venv/
+
+# VS Code settings
+.vscode/
+
+# Windows
+Thumbs.db
+
+# macOS
+.DS_Store
