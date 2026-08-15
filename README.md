@@ -15,7 +15,7 @@ When needed, the data can be exported as CSV files or visualized through clear a
 ## Architecture
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Configurable Assets] --> B[Market Data Collection]
     B --> C[Historical Database]
     C --> D[Charts]
