@@ -6,11 +6,19 @@ It continuously collects and stores historical market data, keeping a clean reco
 
 When needed, the data can be exported as CSV files or visualized through clear and consistent charts.
 
+## Design Rationale
+
+MarketCapture uses a local database to continuously accumulate historical market data instead of treating each data collection as a standalone snapshot.
+
+The purpose is to preserve data that may not be immediately needed, but can become useful later for comparison, analysis, or reference.
+
+This approach also allows new data to be added incrementally while keeping the accumulated historical record available for future use.
+
 ## Features
 
-* Automatically collects and stores historical market data from configurable financial assets.
-* Exports data as CSV files for future reference, analysis, and use in other tools.
-* Visualizes historical market trends through clear and consistent charts.
+- Automatically collects and stores historical market data from configurable financial assets.
+- Exports data as CSV files for future reference, analysis, and use in other tools.
+- Visualizes historical market trends through clear and consistent charts.
 
 ## Architecture
 
